@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background: url('taustakuva1.webp') no-repeat center center fixed;
+            background: url(DALL·E 2025-03-09 09.49.06 - A futuristic and geometric background combining coding elements and investment graphs. The image should include abstract digital lines, blockchain-lik.webp) no-repeat center center fixed;
             background-size: cover;
             color: white;
             text-align: center;
