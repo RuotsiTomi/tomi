@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background: url('DALL·E_2025-03-09_09.49.06_-_A_futuristic_and_geometric_background_combining_coding_elements_and_investment_graphs.webp') no-repeat center center fixed;
+            background-image: url('DALL·E_2025-03-09_09.49.06_-_A_futuristic_and_geometric_background_combining_coding_elements_and_investment_graphs.webp') no-repeat center center fixed;
             background-size: cover;
             color: white;
             text-align: center;
