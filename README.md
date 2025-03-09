@@ -1,51 +1,42 @@
-import React from "react";
-import "./App.css";
-
-function App() {
-  return (
-    <div className="app">
-      {/* Navigaatio */}
-      <nav className="navbar">
-        <div className="logo">TR</div>
-        <ul className="nav-links">
-          <li><a href="#about">Osaaminen</a></li>
-          <li><a href="#projects">Projektit</a></li>
-          <li><a href="#interests">Mielenkiinnon kohteet</a></li>
-          <li><a href="#contact">Yhteydenotto</a></li>
-        </ul>
-      </nav>
-      
-      {/* Etusivu */}
-      <header className="hero">
-        <h1>Tomi Ruotsalainen</h1>
-        <p>Tekninen asiantuntija | Koodaaja | Sijoittaja</p>
-      </header>
-
-      {/* Osaaminen */}
-      <section id="about" className="section">
-        <h2>Osaaminen & Kokemus</h2>
-        <p>11+ vuotta kokemusta talotekniikka-alalta. Talotekniikan insinööriopiskelija.</p>
-      </section>
-      
-      {/* Projektit */}
-      <section id="projects" className="section">
-        <h2>Projektit</h2>
-        <p>Esimerkkejä koodaus- ja mallinnusprojekteista.</p>
-      </section>
-      
-      {/* Mielenkiinnon kohteet */}
-      <section id="interests" className="section">
-        <h2>Mielenkiinnon kohteet</h2>
-        <p>Koodaus, sijoittaminen ja 3D-tulostaminen.</p>
-      </section>
-      
-      {/* Yhteydenotto */}
-      <section id="contact" className="section">
-        <h2>Ota yhteyttä</h2>
-        <p>Voit ottaa yhteyttä sähköpostilla tai sosiaalisessa mediassa.</p>
-      </section>
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - TR</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('taustakuva1.webp') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+        .logo {
+            width: 150px;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            backdrop-filter: blur(5px);
+        }
+        .title {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 0px 0px 10px rgba(0,255,255,0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.webp" alt="Portfolio Logo" class="logo">
+        <h1 class="title">Tervetuloa Portfoliooni</h1>
     </div>
-  );
-}
-
-export default App;
+</body>
+</html>
