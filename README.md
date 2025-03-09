@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background: url(DALL·E 2025-03-09 09.49.06 - A futuristic and geometric background combining coding elements and investment graphs. The image should include abstract digital lines, blockchain-lik.webp) no-repeat center center fixed;
+            background: url('DALL·E_2025-03-09_09.49.06_-_A_futuristic_and_geometric_background_combining_coding_elements_and_investment_graphs.webp') no-repeat center center fixed;
             background-size: cover;
             color: white;
             text-align: center;
@@ -35,7 +35,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="logo.webp" alt="Portfolio Logo" class="logo">
+        <img src="DALL·E_2025-03-09_09.49.15_-_A_futuristic_logo_with_the_letters_'TR'_in_a_sleek,_high-tech_font.webp" alt="Portfolio Logo" class="logo">
         <h1 class="title">Tervetuloa Portfoliooni</h1>
     </div>
 </body>
